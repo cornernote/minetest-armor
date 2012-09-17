@@ -57,7 +57,7 @@ end
 armor.register_armor = function(mod_name,name,label,material,level)
 
 	-- tools
-	minetest.register_tool(mod_name..":"..name.."helmet", {
+	minetest.register_tool(mod_name..":"..name.."_helmet", {
 		description = label.." Helmet",
 		inventory_image = mod_name.."_"..name.."_helmet.png",
 		groups = {armor_helmet=level},
@@ -75,7 +75,7 @@ armor.register_armor = function(mod_name,name,label,material,level)
 		groups = {armor_boots=level},
 		wear = 0,
 	})
-	minetest.register_tool(mod_name..":"..name.."shield", {
+	minetest.register_tool(mod_name..":"..name.."_shield", {
 		description = label.." Shield",
 		inventory_image = mod_name.."_"..name.."_shield.png",
 		groups = {armor_shield=level},
@@ -84,7 +84,7 @@ armor.register_armor = function(mod_name,name,label,material,level)
 
 	-- crafts
 	minetest.register_craft({
-		output = mod_name..":"..name.."_helmet_",
+		output = mod_name..":"..name.."_helmet",
 		recipe = {
 			{material, material, material},
 			{material, "", material},
@@ -92,7 +92,7 @@ armor.register_armor = function(mod_name,name,label,material,level)
 		},
 	})
 	minetest.register_craft({
-		output = mod_name..":"..name.."_chest_",
+		output = mod_name..":"..name.."_chest",
 		recipe = {
 			{material, material, material},
 			{material, material, material},
@@ -100,7 +100,7 @@ armor.register_armor = function(mod_name,name,label,material,level)
 		},
 	})
 	minetest.register_craft({
-		output = mod_name..":"..name.."_boots_",
+		output = mod_name..":"..name.."_boots",
 		recipe = {
 			{material, "", material},
 			{material, "", material},
@@ -108,7 +108,7 @@ armor.register_armor = function(mod_name,name,label,material,level)
 		},
 	})
 	minetest.register_craft({
-		output = mod_name..":"..name.."_shield_",
+		output = mod_name..":"..name.."_shield",
 		recipe = {
 			{material, material, material},
 			{material, "", material},
