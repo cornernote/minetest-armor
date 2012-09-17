@@ -78,3 +78,6 @@ local armors = {
 for _,params in pairs(armors) do
 	armor.register_armor("armor",params.name,params.label,params.material,params.level)
 end
+
+-- log that we started
+minetest.log("action", "[MOD]"..minetest.get_current_modname().." -- loaded from "..minetest.get_modpath(minetest.get_current_modname()))
