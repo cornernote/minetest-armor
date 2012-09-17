@@ -95,7 +95,7 @@ armor.register_armor = function(mod_name,name,label,material,level)
 		output = mod_name..":"..name.."_chest",
 		recipe = {
 			{material, material, material},
-			{material, material, material},
+			{"", material, ""},
 			{"", material, ""},
 		},
 	})
@@ -111,8 +111,8 @@ armor.register_armor = function(mod_name,name,label,material,level)
 		output = mod_name..":"..name.."_shield",
 		recipe = {
 			{material, material, material},
-			{material, "", material},
 			{material, material, material},
+			{"", material, ""},
 		},
 	})
 	
