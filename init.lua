@@ -11,9 +11,6 @@ License: GPLv3
 -- load api
 dofile(minetest.get_modpath("armor").."/api.lua")
 
--- add inventory_plus page
-inventory_plus.pages["armor"] = "Armor"
-
 -- get_formspec
 local get_formspec = function(player,page)
 	return "size[8,7.5]"
@@ -36,6 +33,7 @@ end)
 
 -- register_on_joinplayer
 minetest.register_on_joinplayer(function(player)
+	inventory_plus.register_button(player,"armor","Armor")
 	local player_inv = player:get_inventory()
 	local armor_inv = minetest.create_detached_inventory(player:get_player_name().."_armor",{
 		on_put = function(inv, listname, index, stack, player)
