@@ -34,7 +34,7 @@ M-M
 
 Chestplate:
 MMM
-MMM
+-M-
 -M-
 
 Boots:
@@ -44,8 +44,8 @@ M-M
 
 Shield:
 MMM
-M-M
 MMM
+-M-
 
 
 
