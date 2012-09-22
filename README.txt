@@ -8,7 +8,10 @@ Copyright (c) 2012 cornernote, Brett O'Donnell <cornernote@gmail.com>
 Source Code: https://github.com/cornernote/minetest-armor
 License: GPLv3
 
-Textures by: Jordan Snelling (Jordach)
+Textures by: tonyka
+Texture License: GPLv3
+
+Alt Textures by: Jordan Snelling (Jordach)
 Texture License: GPLv3
 
 
