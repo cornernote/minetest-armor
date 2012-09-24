@@ -69,9 +69,9 @@ end)
 
 -- register armors
 local armors = {
-	{name="wood",label="Wooden",material="default:wood",level=3},
-	{name="steel",label="Steel",material="default:steel_ingot",level=2},
-	{name="mese",label="Mese",material="default:mese",level=1},
+	{name="wood",label="Wooden",material="default:wood",level=2},
+	{name="steel",label="Steel",material="default:steel_ingot",level=1},
+	{name="mese",label="Mese",material="default:mese",level=4},
 }
 for _,params in pairs(armors) do
 	armor.register_armor("armor",params.name,params.label,params.material,params.level)

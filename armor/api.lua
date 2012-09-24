@@ -25,7 +25,7 @@ end
 -- set_armor_groups
 armor.set_armor_groups = function(player)
 	local level
-	local armor_groups = {level=4,fleshy=4,snappy=4,choppy=4}
+	local armor_groups = {level=3,fleshy=3,snappy=3,choppy=3}
 	player_inv = player:get_inventory()
 
 	-- helmet
