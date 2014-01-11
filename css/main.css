@@ -17,10 +17,6 @@ body {
     text-decoration: none;
 }
 
-h1 {
-    color: #2C3E50;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Press Start 2P', cursive;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
@@ -56,7 +52,7 @@ h2[id], h3[id], h4[id] {
 
 /* fancy header */
 #header {
-    background: url(../img/header_bg.png) bottom;
+    background: #8BB9F9 url("../img/header_bg.png") repeat-x scroll center bottom;
 }
 
 .jumbotron {
@@ -69,10 +65,15 @@ h2[id], h3[id], h4[id] {
     background: transparent;
     border: 0;
     text-align: center;
+    color: #333;
+}
+
+#header .jumbotron h1 {
+    color: #111;
 }
 
 #header .jumbotron small {
-    color: #fff;
+    color: #222;
 }
 
 #header .jumbotron .buttons {
