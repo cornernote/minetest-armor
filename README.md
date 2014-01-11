@@ -14,7 +14,7 @@ Craft and attach armor to your inventory.
 
 - **[Documentation](http://cornernote.github.io/minetest-armor)**
 - **[GitHub Project](https://github.com/cornernote/minetest-armor)**
-- **[Minetest Forum Page](http://minetest.net/forum/viewtopic.php?id=3099)**
+- **[Minetest Forum](http://minetest.net/forum/viewtopic.php?id=3099)**
 
 ## Support
 
