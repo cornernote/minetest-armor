@@ -109,10 +109,6 @@ a[id] {
     color: #222;
 }
 
-#header .jumbotron .buttons {
-    padding: 50px 0;
-}
-
 #header .jumbotron a.btn {
     margin-bottom: 5px;
 }
