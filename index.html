@@ -9,8 +9,7 @@
 
     <link href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
     <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/prettify.css" rel="stylesheet" type="text/css">
-    <link href="css/minetest.css" rel="stylesheet" type="text/css">
+    <link href="//cornernote.github.io/minetest-bootstrap-theme/css/minetest.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
@@ -252,7 +251,11 @@ armor_shield=X</pre>
 <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
 <script src="//google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
-<script src="js/main.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".fancybox").fancybox();
+    });
+</script>
 
 </body>
 </html>
