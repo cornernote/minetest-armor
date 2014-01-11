@@ -1,0 +1,189 @@
+@import url("//fonts.googleapis.com/css?family=Press+Start+2P");
+
+/* body margin for bootstrap nav */
+
+body {
+    margin-top: 50px;
+    background-image: url(../img/stone.jpg);
+    color: #eee;
+    font-size: 180%;
+}
+
+#content a {
+    text-decoration: underline;
+}
+
+#content a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    color: #2C3E50;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* pretty h2 */
+h2 {
+    padding-bottom: 10px;
+    border-bottom: 4px solid #ddd;
+}
+
+/* extra 20px top padding */
+
+h2, h3, h4, h5, h6 {
+    padding-top: 20px;
+}
+
+/* force the anchors to go to the right position - http://stackoverflow.com/questions/9047703/fixed-position-navbar-obscures-anchors */
+
+h2[id], h3[id], h4[id] {
+    padding-top: 70px; /* extra 20px top padding */
+    margin-top: -50px;
+}
+
+/* fix navbar disappearing - http://stackoverflow.com/questions/14493533/really-weird-redraw-behavior-with-anchor-links-twitter-bootstrap-fixed-navbar */
+.affix, .navbar-fixed-top {
+    -webkit-transform: scale3d(1, 1, 1);
+}
+
+.navbar-fixed-top {
+    border: none;
+}
+
+/* fancy header */
+#header {
+    background: url(../img/header_bg.png) bottom;
+}
+
+.jumbotron {
+    background-image: url(../img/wool_blue.jpg);
+    padding: 20px;
+}
+
+#header .jumbotron {
+    padding: 20px 0;
+    background: transparent;
+    border: 0;
+    text-align: center;
+}
+
+#header .jumbotron small {
+    color: #fff;
+}
+
+#header .jumbotron .buttons {
+    padding: 50px 0;
+}
+
+/* more button margin for smaller devices */
+#header .jumbotron a.btn {
+    margin-bottom: 5px;
+}
+
+#header .lead {
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand, #header .lead, #header .btn {
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* fancy footer */
+
+#footer {
+    border-top: 6px solid #333;
+    background-image: url(../img/lava.jpg);
+    margin-top: 80px;
+    padding-top: 20px;
+}
+
+#footer .well h3 {
+    padding-top: 0;
+}
+
+#footer .well {
+    padding-top: 0;
+    background: #eee url(../img/wool_white.jpg);
+    color: #111;
+}
+
+#footer .well a {
+    color: #000;
+    font-weight: bold;
+}
+
+#footer small {
+    color: #000;
+}
+
+/* put the margin-bottom on the caption instead of the thumbnail */
+
+.thumbnail {
+    margin-bottom: 0;
+}
+
+.caption {
+    margin-bottom: 20px;
+}
+
+pre, .well, .thumbnail, .jumbotron {
+    border-radius: 0 !important;
+    border: 4px solid #333;
+}
+
+pre.prettyprint {
+    border: 4px solid #333 !important;
+}
+
+.btn {
+    border-radius: 0;
+    border-width: 4px;
+}
+
+.section-features {
+    background-image: url(../img/dirt.jpg);
+    border-bottom: 6px solid #333;
+}
+
+.craft {
+    font-family: 'Press Start 2P', cursive;
+    background-image: url(../img/wood.jpg);
+    font-size: 200%;
+    text-align: center;
+    color: #ccc;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+    line-height: 1em;
+    letter-spacing: 0.1em;
+}
+
+.ribbon {
+    background-color: #a00;
+    overflow: hidden;
+    /* top left corner */
+    position: absolute;
+    right: -3em;
+    top: 4em;
+    /* 45 deg ccw rotation */
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    /* shadow */
+    -moz-box-shadow: 0 0 1em #888;
+    -webkit-box-shadow: 0 0 1em #888;
+}
+
+.ribbon a {
+    border: 1px solid #faa;
+    color: #fff;
+    display: block;
+    font: bold 60% 'Press Start 2P', cursive;
+    margin: 0.05em 0 0.075em 0;
+    padding: 0.6em 3.5em;
+    text-align: center;
+    text-decoration: none;
+    /* shadow */
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
