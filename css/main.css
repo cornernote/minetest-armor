@@ -58,16 +58,19 @@ a[id] {
 
 /* fancy header */
 #header {
-    background: #8BB9F9 url("../img/header_bg.png") repeat-x scroll center bottom;
+    background: #8BB9F9 url("../img/header.png") repeat-x scroll center bottom;
 }
 
 .jumbotron {
-    background-image: url(../img/wool_blue.jpg);
+    background-image: url(../img/water.jpg);
     padding: 20px;
+    color: #333;
 }
 
 .jumbotron h2 {
+    color: #222;
     padding-top: 0;
+    border-bottom: 4px solid #444;
 }
 
 #header .jumbotron {
@@ -75,7 +78,6 @@ a[id] {
     background: transparent;
     border: 0;
     text-align: center;
-    color: #333;
 }
 
 #header .jumbotron h1 {
@@ -113,7 +115,7 @@ a[id] {
 
 #footer .well {
     padding-top: 0;
-    background: #eee url(../img/wool_white.jpg);
+    background: #eee url(../img/wool.jpg);
     color: #111;
 }
 
