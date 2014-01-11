@@ -32,7 +32,7 @@
 
 pre.prettyprint {
     padding: 10px !important;
-    border: 1px solid #cccccc !important;
+    border: 4px solid #333 !important;
 }
 
 pre.prettyprint.linenums {
