@@ -109,7 +109,6 @@ a[id] {
     border-top: 6px solid #333;
     background-image: url(../img/lava.jpg);
     padding-top: 20px;
-    margin-top: 40px;
 }
 
 #footer .well {
@@ -153,6 +152,10 @@ pre.prettyprint {
 .btn {
     border-radius: 0;
     border-width: 4px;
+}
+
+.section {
+    padding-bottom: 60px;
 }
 
 .section-features {
