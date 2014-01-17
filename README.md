@@ -30,3 +30,6 @@ This module is open source, so it's distributed freely. If you find it useful th
 ## License
 
 [BSD-3-Clause](https://raw.github.com/cornernote/minetest-armor/master/LICENSE), Copyright © 2013-2014 [Brett O'Donnell](http://cornernote.github.io/)
+
+- Textures: Copyright (c) 2012 tonyka
+- Alt Textures: Copyright (c) 2012 Jordach, Jordan Snelling
