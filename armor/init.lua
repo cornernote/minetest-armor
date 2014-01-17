@@ -3,8 +3,8 @@
 Armor for Minetest
 
 Copyright (c) 2012 cornernote, Brett O'Donnell <cornernote@gmail.com>
-Source Code: https://github.com/cornernote/minetest-particles
-License: GPLv3
+Source Code: https://github.com/cornernote/minetest-armor
+License: BSD-3-Clause https://raw.github.com/cornernote/minetest-armor/master/LICENSE
 
 ]]--
 
