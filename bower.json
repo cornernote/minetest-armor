@@ -11,5 +11,8 @@
   "authors": [
     "cornernote"
   ],
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "inventory_plus": "~1.0.0"
+  }
 }
