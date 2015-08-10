@@ -1,0 +1,15 @@
+{
+  "name": "armor",
+  "description": "Craft and attach armor to your inventory.",
+  "keywords": [
+    "armor"
+  ],
+  "homepage": "http://cornernote.github.io/minetest-armor/",
+  "screenshots": [
+    "http://cornernote.github.io/minetest-armor/img/screenshot.png"
+  ],
+  "authors": [
+    "cornernote"
+  ],
+  "license": "BSD-3-Clause"
+}
